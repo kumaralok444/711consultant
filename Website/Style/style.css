@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+*{list-style:none; padding:0; margin:0; text-decoration:none}
+.main{margin:0 auto; width:1300px}
+.menulist li {
+    display: inline;
+	margin-right: 64px;
+}
+.menulist > li:last-child {
+    margin: 0;
+}
+.navmenu {
+    float: left;
+}
+.logo {
+    margin: 5px 15px 0;
+    overflow: hidden;
+    width: 200px;
+}
+.menulist a {
+    color: white;
+    font-size: 14pt;
+}
+.navmenu {
+    margin: -89px 0 0 721px;
+}
+header {
+    margin: 0 auto;
+    width: 1300px;
+}
+.name {
+    color: white;
+    left: 135px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+	display:inline;
+    top: -78px;
+}
+.name > h1 {
+    display: inline;
+}
+.menulist li a:hover{ color:#00a9ff}
+.slider-wrapper {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 18px;
+    margin-top: -52px;
+    overflow: hidden;
+    width: 1299px;
+}
+.slider {
+    height: 403px;
+    margin: 11px 106px;
+    width: 1093px;
+}
+.items {display:none}
+.banner {width:400px;height:205px;position:absolute;top:92px;left:98px}
+.banner1{width:400px;height:205px;position:absolute;top:92px;left:650px}
+.prev {display:block;width:22px;height:37px;text-indent:-5000px;position:absolute;left:0;top:183px;z-index:99;background:url(../image/slider-control.png) left top no-repeat}
+.prev:hover {background-position:left bottom}
+.next {display:block;width:22px;height:37px;text-indent:-5000px;position:absolute;right:22px;top:183px;z-index:99;background:url(../image/slider-control.png) right top no-repeat}
+.next:hover {background-position:right bottom}
+.b1 {color:#0f0f0f;font-size:50px;line-height:1.2em;display:block;letter-spacing:-3px}
+.b2 {color:#00a9ff;font-size:80px;line-height:1.2em;display:block;text-transform:uppercase;letter-spacing:-4px;margin:-12px 0 13px -5px}
+*+html .b2 {margin:-12px 0 5px -5px}
+.b3 {color:#0f0f0f;font-size:17px;line-height:1.2em;display:block}
+
+
+#content {
+    background: white none repeat scroll 0 0;
+    margin-top: 25px;
+	overflow:hidden;
+}
+.details {
+    padding: 0 12px;
+}
+.wrap {
+    background: #e4e4e4 none repeat scroll 0 0;
+    margin: 10px;
+    padding: 33px;
+	overflow:hidden;
+}
+.box1 {
+    background: #101010 none repeat scroll 0 0;
+    color: white;
+    float: left;
+    margin: 0 31px;
+    overflow: hidden;
+    width: 330px;
+}
+.more {
+    margin: -10px 30px 18px 107px;
+}
+.num {
+    display: inline;
+}
+.detwrap {
+    left: 72px;
+    position: relative;
+    top: -52px;
+}
+.bdetail {
+    left: 13px;
+    position: relative;
+    top: -28px;
+}
+.bdetail p{font-size:12pt}
+.missionsection {
+    margin-top: 27px;
+	overflow:hidden;
+	 padding-bottom: 27px;
+}
+.mission-head {
+    margin-bottom: 20px;
+}
+.mission-head > h1 {
+    color: #0f0f0f;
+    font-size: 26pt;
+    letter-spacing: 3px;
+    line-height: 1.9em;
+}
+
+.mission {
+    margin-left: 15px;
+    width: 593px;
+	float:left;
+}
+.mission-detail > p {
+    margin-bottom: 13px;
+	text-align: justify;
+}
+.overview {
+    float: left;
+    margin-left: 35px;
+    width: 576px;
+}
+.ovr-image {
+    width: 100px;
+}
+.ovr-image > img {
+    height: 100px;
+    width: 100px;
+}
+.head1 {
+    color: #00a9ff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-left: 112px;
+    margin-top: -104px;
+}
+.ovr-para {
+    overflow: hidden;
+}
+.ovr-para > p:first-child {
+    margin-bottom: 10px;
+    margin-left: 112px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.ovr-para > p {
+    line-height: 1.3em;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+footer {
+    background: black none repeat scroll 0 0;
+    margin-top: 20px;
+}
+footer {
+    background: black none repeat scroll 0 0;
+    margin-top: 20px;
+}
+.copydetail {
+    padding: 20px;
+}
+.copydetail > span {
+    color: white;
+}
+.copydetail > span:last-child {
+    margin-left: 714px;
+}
+
+.clientdetail {
+    background: #e4e4e4 none repeat scroll 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.clienthead {
+    margin: 22px 2px;
+}
+.clienthead > h1 {
+    color: #00a9ff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.client1 {
+    border: 10px solid #fabb0c;
+    border-radius: 10px;
+	box-shadow: 2px -2px 10px;
+    float: left;
+    height: 341px;
+    margin: 29px 45px;
+    width: 450px;
+}
+.client {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1120px;
+}
+.pic1 > img {
+    height: 300px;
+    width: 450px;
+}
+.picdetail {
+    position: relative;
+    top: -104px;
+}
+.client1 p {
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+}
+.con1 {
+    margin: 0 0 0 101px;
+    overflow: hidden;
+    width: 601px;
+	float:left;
+}
+.con1head > h1 {
+    border-bottom: 5px solid #fabb0c ;
+    letter-spacing: 4px;
+}
+.con1det {
+    margin-top: 10px;
+}
+.con1det p {
+    margin-bottom: 14px;
+    text-align: justify;
+}
+.con1head {
+    margin-top: 18px;
+}
+.con2 {
+    width: 370px;
+}
+.career {
+    margin: 0 87px;
+}
+.carrercon {
+    margin-top: 23px;
+    overflow: hidden;
+}
+.careerlist {
+    overflow: hidden;
+    width: 300px;
+}
+.careerlist li {
+    margin-bottom: 4px;
+}
+.careerlist a {
+    background: black none repeat scroll 0 0;
+    border-radius: 2px;
+    font-size: 21px;
+    padding: 2px;
+}
+.careerpic {
+    float: left;
+    margin-left: 419px;
+    margin-top: -271px;
+}
+.careerpic > img {
+    height: 277px;
+    width: 500px;
+}
+.carrercon > h1 {
+    margin-top: 95px;
+    overflow: hidden;
+}
